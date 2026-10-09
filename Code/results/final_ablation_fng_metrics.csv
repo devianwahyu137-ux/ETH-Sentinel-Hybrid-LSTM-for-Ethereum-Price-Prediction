@@ -1,0 +1,6 @@
+Model,Directional Accuracy (%),Macro F1-Score,ROC-AUC,MCC,Brier Score,Cumulative Return (%),Annualized Sharpe,Max Drawdown (%),Turnover Trades,Total Friction Cost (%)
+Naive (Buy & Hold),50.63%,0.3361,0.5,0.0,0.25,+33.57%,2.14,-17.73%,1,0.10%
+Logistic Regression,50.31%,0.5031,0.5011,0.0063,0.2554,-24.87%,-2.74,-26.13%,272,27.20%
+Random Forest,53.13%,0.5308,0.5492,0.0621,0.2485,+1.88%,0.36,-21.41%,192,19.20%
+Proposed 2-Layer LSTM,51.57%,0.4743,0.5339,0.0293,0.2494,+13.73%,1.2,-24.34%,39,3.90%
+Proposed Hybrid Sentinel-LSTM (CFGI),50.78%,0.4806,0.5140,0.0113,0.2499,+1.77%,0.35,-18.82%,40,4.00%

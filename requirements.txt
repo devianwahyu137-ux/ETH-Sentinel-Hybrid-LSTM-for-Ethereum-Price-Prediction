@@ -1,16 +1,26 @@
-pandas
-numpy
-ruptures
-matplotlib
-seaborn
-scikit-learn
-tensorflow
-yfinance
-transformers
-torch
-vaderSentiment
-selenium
-beautifulsoup4
-requests
-tqdm
-pysentiment2
+# ETH-Sentinel Pipeline Dependencies (Pinned Environment)
+# Python: >= 3.9 (tested on Python 3.9.6)
+# Target: Journal of Accounting and Investment (JAI - SINTA 2)
+# =========================================================
+
+# Deep Learning & Neural Frameworks
+tensorflow==2.20.0
+keras==3.10.0
+
+# Data Engineering & Numerical Computing
+pandas==2.3.3
+numpy==2.0.2
+scikit-learn==1.6.1
+joblib==1.5.3
+
+# Econometrics & Time-Series Stationarity
+statsmodels==0.14.6
+
+# Financial Market & Sentiment Data Acquisition
+yfinance==1.2.0
+requests==2.32.5
+
+# Visualization & Reporting
+matplotlib==3.9.4
+seaborn==0.13.2
+tqdm==4.70.1

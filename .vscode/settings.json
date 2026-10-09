@@ -1,0 +1,6 @@
+{
+  "workbench.editorAssociations": {
+    "*.docx": "cweijan.officeViewer",
+    "*.doc": "cweijan.officeViewer"
+  }
+}
